@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @Dadirdaauud
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Dadirdaauud/Dadirdaauud is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+function getScreenshot(url) {
+  const apiKey = '{your-key}';
+  const base = 'https://app.link-snap.com/api/screenshot';
+  const result = `${base}?key=${apiKey}&url=${url}&width=1600`;
+  return result;
+}
